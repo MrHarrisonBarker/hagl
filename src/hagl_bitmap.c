@@ -231,7 +231,7 @@ hagl_bitmap_init(hagl_bitmap_t *bitmap, int16_t width, uint16_t height, uint8_t 
     bitmap->width = width;
     bitmap->height = height;
     bitmap->depth = depth;
-    bitmap->buffer = (uint8_t *) buffer;
+    bitmap->buffer = (hagl_color_t *) buffer;
 
     bitmap->pitch = bitmap->width * (bitmap->depth / 8);
     bitmap->size = bitmap->pitch * bitmap->height;

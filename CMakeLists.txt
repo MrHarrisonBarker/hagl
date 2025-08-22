@@ -19,6 +19,7 @@ if (ESP_PLATFORM)
             "src/hagl_vline.c"
             "src/hagl_bitmap.c"
             "src/fontx.c"
+            "src/other_fonts.c"
             "src/hsl.c"
             "src/rgb565.c"
             "src/rgb888.c"
@@ -50,6 +51,7 @@ else()
         ${CMAKE_CURRENT_LIST_DIR}/src/hagl_vline.c
         ${CMAKE_CURRENT_LIST_DIR}/src/hagl_bitmap.c
         ${CMAKE_CURRENT_LIST_DIR}/src/fontx.c
+        ${CMAKE_CURRENT_LIST_DIR}/src/other_fonts.c
         ${CMAKE_CURRENT_LIST_DIR}/src/hsl.c
         ${CMAKE_CURRENT_LIST_DIR}/src/rgb565.c
         ${CMAKE_CURRENT_LIST_DIR}/src/rgb888.c
